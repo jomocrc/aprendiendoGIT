@@ -81,4 +81,11 @@ con (git status) veremos el estado en el que sencuentran nuestros archivos
 si salen en rojo quiere decir que ese archivo no esta siendo segido por git
 en el editor de visual studio nos lo marcara con una (U) a la derecha del nombre del archivo
 Para poder comenzar a segir un archivo devemos añadirlo con el comando
-(git add nombre del archivo quequeremos seguir)
+(git add nombre del archivo quequeremos seguir) despues de esto ejecutamos de nuevo (git status)
+y podremos ver como nos indica en verde (newfile: nombre del archivo) al estar en verde nos indica
+que este archivo esta listo para se comprometido o comiteado.
+
+
+para comprmeter nuestros archivos y pasarlos a la etapa de (commit) devemos de ejecutar 
+(git commit -m "mensaje") el mensaje deve de tener sentido con los cambios realizados para posteriormente
+poder comprender al instante que hemos echo dentro de este commit
