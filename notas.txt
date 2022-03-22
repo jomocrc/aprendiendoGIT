@@ -113,5 +113,9 @@ ejp2. ( git mv nombre actual  nuveo nombre)
 
 Ignorando archivos
 
+git diff  -vermos que es lo que se a modificado en el archivo
+git status - s  -veremos un resumen del stado de nuestros archivos
+(git log) o (git log --oneline) -podremos ver el historial de commits que emos realizados en el archivo
+
 
 
