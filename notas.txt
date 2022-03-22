@@ -117,5 +117,13 @@ git diff  -vermos que es lo que se a modificado en el archivo
 git status - s  -veremos un resumen del stado de nuestros archivos
 (git log) o (git log --oneline) -podremos ver el historial de commits que emos realizados en el archivo
 
+git branch para comprovar en que rama nos encontramos travajando
+git checkout -b Nombre -con este comando crearemos una nueva rama con el nombre que deseemos
+git checkout master - para cambiar de rama
+cat archivo2.txt veremos los cambios realizadopor cada rama
+git merge branch2 para traernos la rama que queramos.
+    al aver traajando en el codigo varios desarrolladores cada uno en su propia rama ejecutaremos 
+    este codigo cuando queramos unir todo el codigo
 
 
+como subir nuestro repositorio a github
