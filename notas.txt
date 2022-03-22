@@ -108,5 +108,10 @@ git restore archivo2.txt
 Moviendo archivos
 para cambiar el nombre de nuestro archivo utilizaremos el comando (mv)
 ejp. (mv nombre actual  nuveo nombre)
+lo podemos agregar directamente a staged con
+ejp2. ( git mv nombre actual  nuveo nombre)
+
+Ignorando archivos
+
 
 
