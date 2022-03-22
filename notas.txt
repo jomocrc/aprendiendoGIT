@@ -86,6 +86,27 @@ y podremos ver como nos indica en verde (newfile: nombre del archivo) al estar e
 que este archivo esta listo para se comprometido o comiteado.
 
 
-para comprmeter nuestros archivos y pasarlos a la etapa de (commit) devemos de ejecutar 
+para comprometer nuestros archivos y pasarlos a la etapa de (commit) devemos de ejecutar 
 (git commit -m "mensaje") el mensaje deve de tener sentido con los cambios realizados para posteriormente
 poder comprender al instante que hemos echo dentro de este commit
+
+Eliminando archivos
+(rm archivo) rm segido del nombre del archivo que queremos eliminar
+si ejecutamos (git status) podremos comprovar que el archivo que emos eliminado nos aparece en rojo
+de esta forma  (deleted: archivo2.txt). despues devemos añadir a la etapa de stage los cambios par que
+se elimine
+(git add archivo2.txt)
+tambien lo podemos hacer directamente para ahorrarnos un paso con el comando
+(git rm archivo2.txt)
+finalmente deveriamos comitearlo
+
+Restaurando un archivo
+podremos recuperar el archivo antes de aver echo un commit despues no se puede
+para restaura un archivo eliminidado con el comando
+git restore archivo2.txt
+
+Moviendo archivos
+para cambiar el nombre de nuestro archivo utilizaremos el comando (mv)
+ejp. (mv nombre actual  nuveo nombre)
+
+
